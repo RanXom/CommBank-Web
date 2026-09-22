@@ -1,4 +1,3 @@
-import { Icon } from '@material-ui/core'
 import React from 'react'
 import styled from 'styled-components'
 import { selectGoalsMap } from '../../../../store/goalsSlice'
@@ -55,4 +54,7 @@ const TargetAmount = styled.h2`
 const TargetDate = styled.h4`
   color: rgba(174, 174, 174, 1);
   font-size: 1rem;
+`
+const Icon = styled.h1`
+  font-size: 5.5rem;
 `
